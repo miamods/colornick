@@ -12,8 +12,8 @@
  * <script type="text/javascript" src="/path/to/colornick.js"></script>
  * <script type="text/javascript">
  * colornick([
- * {name: "Group 1", color: "#FF0000", bold: true, italic: false, users: ["Usernick1", "Usernick2", ...more users]},
- * {name: "Group 2", color: "#00FF00", bold: true, italic: false, users: ["Usernick3", "Usernick4", ...more users]},
+ * {name: "Group 1", color: "#FF0000", bold: true, italic: false, users: ["Username1", "Username2", ...more users]},
+ * {name: "Group 2", color: "#00FF00", bold: true, italic: false, users: ["Username3", "Username4", ...more users]},
  * ...more groups
  * ]);
  * </script>
