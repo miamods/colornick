@@ -2,6 +2,8 @@
 
 It allows the coloring of the nickname of one or more users of your miarroba board according to their profile. In addition, it allows the edition of the legend _**[Administrator]**_, **[Moderator]** to explain the meaning of the coloring. 
 
+![colornick](img/promo.png)
+
 ## Usage
 
 Download [colornick.min.js](colornick.min.js), upload it to the web space of your board, and insert the following code in the html footer (control panel > appearance > HTML): 
