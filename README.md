@@ -1,10 +1,10 @@
-# colornick
+# Color Nick
 
-This script adds colors to usernames of your miarroba board. You can create groups of users that share the same styles. 
+It allows the coloring of the nickname of one or more users of your miarroba board according to their profile. In addition, it allows the edition of the legend _**[Administrator]**_, **[Moderator]** to explain the meaning of the coloring. 
 
 ## Usage
 
-Download [this script](colornick.min.js), upload it to the web space of your board, and insert the following code in the html footer (control panel > appearance > HTML): 
+Download [colornick.min.js](colornick.min.js), upload it to the web space of your board, and insert the following code in the html footer (control panel > appearance > HTML): 
 
 ```html
 <script type="text/javascript" src="/path/to/colornick.min.js"></script>
