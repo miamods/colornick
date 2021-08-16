@@ -4,6 +4,10 @@
  * Released under the BSD 3-Clause License
  * https://github.com/miamods/colornick
  * 
+ * It allows the coloring of the nickname of one or more users of your miarroba
+ * board according to their profile. In addition, it allows the edition of the
+ * legend [Administrator], [Moderator] to explain the meaning of the coloring.
+ * 
  * Usage:
  * 
  * Download this script, upload it to the web space of your board, and insert
@@ -32,7 +36,7 @@ function colornick(groups) {
 			"font-style:" + (group.italic ? "italic" : "normal") + "!important";
 		legend += " <span style=\"" + group_styles + "\">[" + group.name + "]</span>";
 		for(var j = 0; j < group.users.length; j++) {
-			var nick = groups[i].users[j].toLowerCase();
+			var nick = group.users[j].toLowerCase();
 			styles +=
 				// miarroba toolbar nicklink
 				"#ma_toolbar a[href='/users/" + nick + "/']," +
