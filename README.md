@@ -17,13 +17,14 @@ colornick([
         color: "#FF0000",
         bold: true,
         italic: false,
-        users: ["Username1", "Username2" /*, more usernames...*/]},
+        users: ["Username1", "Username2" /*, more usernames...*/]
+    },
     {
         name: "Group 2",
         color: "#00FF00",
         bold: true,
         italic: false,
-        users: ["Username3", "Username4" /*, more usernames...*/
+        users: ["Username3", "Username4" /*, more usernames...*/]
     }
     /*, more groups...*/
 ]);
